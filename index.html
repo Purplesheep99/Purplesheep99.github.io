@@ -2,198 +2,150 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title> HTML practice </title>
+  <title> Information about the eight planets </title>
   <style>
-    body {background:pink}
+    body {background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(222,168,248,1) 0%, rgba(168,222,248,1) 21.8%, rgba(189,250,205,1) 35.6%, rgba(243,250,189,1) 52.9%, rgba(250,227,189,1) 66.8%, rgba(248,172,172,1) 90%, rgba(254,211,252,1) 99.7% );}
   </style>
 </head>
 <body>
-	<h1>
-	  <mark>
-	    <font color="purple"> HTML practice </font>
-	  </mark>
-	</h1>
-	<p></p> This is a paragraph <p></p>
-	<hr size=2> 
-	<h2>
-	  <font color="red"> List </font>
-	<h2>
-	<h3>
-	  <p></p> <font color="orange"> unordered list </font> <p></p>
-	</h3>
-	<ul>
-	  <li> list </li>
-	  <li> list </li>
-	  <li> list </li>
-	  <li> list </li>
-	  <li> list </li>
-	</ul>
-	<h3>
-	  <p></p> <font color="orange"> ordered list - 1 </font> <p></p>
-	</h3>
-	<ol type = 1>
-	  <li> list one </li>
-	  <li> list two </li>
-	  <li> list three </li>
-	  <li> list four </li>
-	  <li> list five </li>
-	</ol>
-	<h3>
-	  <p></p> <font color="orange"> ordered list - 2 </font> <p></p>
-	</h3>
-	<ol type = a>
-	  <li> list one </li>
-	  <li> list two </li>
-	  <li> list three </li>
-	  <li> list four </li>
-	  <li> list five </li>
-	</ol>
-	<h3>
-	  <p></p> <font color="orange"> ordered list - 3 </font> <p></p>
-	</h3>
-	<ol type = A>
-	  <li> list one </li>
-	  <li> list two </li>
-	  <li> list three </li>
-	  <li> list four </li>
-	  <li> list five </li>
-	</ol>
-	<h3>
-	  <p></p> <font color="orange"> ordered list - 4 </font> <p></p>
-	</h3>
-	<ol type = i>
-	  <li> list one </li>
-	  <li> list two </li>
-	  <li> list three </li>
-	  <li> list four </li>
-	  <li> list five </li>
-	</ol>
-	<h3>
-	  <p></p> <font color="orange"> ordered list - 5 </font> <p></p>
-	</h3>
-	<ol type = I>
-	  <li> list one </li>
-	  <li> list two </li>
-	  <li> list three </li>
-	  <li> list four </li>
-	  <li> list five </li>
-	</ol>
-	<hr size="2">
-	<h2>
-	  <font color="red"> Word inline element </font>
-	<h2>
-	<h3>
-	  <p></p> <font color="orange"> emphasis </font> <p></p>
-	</h3>
-	  <em> This sentence is emphasis </em>
-	<h3>
-	  <p></p> <font color="orange"> strong </font> <p></p>
-	</h3>
-	  <strong> This sentence is strong </strong>
-	<h3>
-	  <p></p> <font color="orange"> emphasis and strong </font> <p></p>
-	</h3>
-	  <em><strong> This sentence is emphasis and strong </strong></em>
-	<hr size="2">
-	
-	<h2> <font color="red"> Table </font> </h2>
-	<table width="400" height="150" bgcolor="yellow" border="1">
-	  <caption> <font size="5"> Table title </font> </caption>
+  <div class = "table_">
+  <br><br>
+    <table width="1000" height="200" bgcolor="black" border="1">
+	  <caption><em><strong><font color="blue" size=5> Information about the eight planets </font> </strong></em></caption>
+	  
 	  <tr>
-	    <th> title_1 </th>
-	    <th> title_2 </th>
-	    <th> title_3 </th>
-	    <th> title_4 </th>
+	    <th> planet </th>
+	    <th> 
+		  distance from the sun 
+		  <br>
+		  (AU)
+		</th>
+	    <th> 
+		  equatorial radius
+		  <br>
+		  (kilometers) 
+		</th>
+	    <th>
+		  volume
+		  <br>
+		  (earth=1) 
+		</th>
+		<th>
+		  mass
+		  <br>
+		  (kilogram)
+		</th>
+		<th>
+		  density
+		  <br>
+		  (g/cm3)
+		</th>
+		<th>
+		  revolution period
+		  <br>
+		  (year)
+		</th>
+		<th> moons </th>
 	  </tr>
 	  <tr>
-	    <td align="center" valign="center"> content </td>
-		<td align="center" valign="center"> content </td>
-		<td align="center" valign="center"> content </td>
-		<td align="center" valign="center"> content </td>
+	    <td class="planet" align="center" valign="center"> Mercury </td>
+		<td class="AU" align="center" valign="center"> 0.4 </td>
+		<td class="elrs" align="center" valign="center"> 2440 </td>
+		<td class="volume" align="center" valign="center"> 0.054 </td>
+		<td class="mass" align="center" valign="center"> 0.055 </td>
+		<td class="density" align="center" valign="center"> 5.43 </td>
+		<td class="rnpd" align="center" valign="center"> 0.24 </td>
+		<td class="moon" align="center" valign="center"> 0 </td>
 	  <tr>
 	  <tr>
-	    <td align="center" valign="center"> content </td>
-		<td align="center" valign="center"> content </td>
-		<td align="center" valign="center"> content </td>
-		<td align="center" valign="center"> content </td>
+	    <td class="planet" align="center" valign="center"> Venus </td>
+		<td class="AU" align="center" valign="center"> 0.7 </td>
+		<td class="elrs" align="center" valign="center"> 6052 </td>
+		<td class="volume" align="center" valign="center"> 0.88 </td>
+		<td class="mass" align="center" valign="center"> 0.815 </td>
+		<td class="density" align="center" valign="center"> 5.24 </td>
+		<td class="rnpd" align="center" valign="center"> 0.62 </td>
+		<td class="moon" align="center" valign="center"> 0 </td>
 	  <tr>
 	  <tr>
-	    <td align="center" valign="center"> content </td>
-		<td align="center" valign="center"> content </td>
-		<td align="center" valign="center"> content </td>
-		<td align="center" valign="center"> content </td>
+	    <td class="planet" align="center" valign="center"> Earth </td>
+		<td class="AU" align="center" valign="center"> 1 </td>
+		<td class="elrs" align="center" valign="center"> 6378 </td>
+		<td class="volume" align="center" valign="center"> 1 </td>
+		<td class="mass" align="center" valign="center"> 1 </td>
+		<td class="density" align="center" valign="center"> 5.49 </td>
+		<td class="rnpd" align="center" valign="center"> 1 </td>
+		<td class="moon" align="center" valign="center"> 1 </td>
 	  <tr>
 	  <tr>
-	    <td align="center" valign="center"> content </td>
-		<td align="center" valign="center"> content </td>
-		<td align="center" valign="center"> content </td>
-		<td align="center" valign="center"> content </td>
+	    <td class="planet" align="center" valign="center"> Mars </td>
+		<td class="AU" align="center" valign="center"> 1.5 </td>
+		<td class="elrs" align="center" valign="center"> 3397 </td>
+		<td class="volume" align="center" valign="center"> 0.15 </td>
+		<td class="mass" align="center" valign="center"> 0.107 </td>
+		<td class="density" align="center" valign="center"> 3.94 </td>
+		<td class="rnpd" align="center" valign="center"> 1.88 </td>
+		<td class="moon" align="center" valign="center"> 2 </td>
 	  <tr>
-	</table>
-	<hr size="2">
-	<h2> <font color="red"> Image </font> </h2>
-	<h3> <font color="orange"> For example:sun </font> <h3>
-	<img width="240" height="135" src="https://spaceplace.nasa.gov/gallery-sun/en/solar-flare.en.jpg">
-	<hr size="2">
-	<h2> <font color="red"> HyperLink </font> </h2>
-	<h3> <font color="orange"> For example:Chiayi County Yung Ching Senior High School's Website </font> <h3>
-	<a href="https://www.ycsh.cyc.edu.tw/" target = "_blank"> This is a hyperlink to YCSH!</a>
-	<hr size="2">
-	<h2> <font color="red"> Annotation </font> </h2>
-	<h3> <font color="orange"> HTML </font> </h3>
-	  &lt;!--text--&gt;
-	<h3> <font color="orange"> CSS </font> </h3>
-	  /*text*/
-	<hr size="2">
-	<h2> <font color="red"> Form </font> </h2>
-	<form method=get action=UTL> <!--表單-->
-	  <h3> <font color="orange"> type:text </font> </h3>
-	    <input type="text" name="name" value="enter text">
-	  <h3> <font color="orange"> type:password </font> </h3>
-	    <input type="password" name="password" value="input password">
-	  <h3> <font color="orange"> type:checkbox </font> </h3>
-	    <fieldset>
-		  <legend> Title </legend>
-		  <label>
-		    <input type="checkbox" name="option_1">option_1
-		  </label><br>
-		  <label>
-		    <input type="checkbox" name="option_2">option_2
-		  </label><br>
-		  <label>
-		    <input type="checkbox" name="option_3">option_3
-		  </label><br>
-		  <label>
-		    <input type="checkbox" name="option_4">option_4
-		  </label><br>
-		  <label>
-		    <input type="checkbox" name="option_5">option_5
-		  </label><br>
-		</fieldset>
-	  <h3> <font color="orange"> type:radio </font> </h3>
-	    <fieldset>
-		  <legend> Title </legend>
-		  <label>
-		    <input type="radio" name="option_1">option_1
-		  </label><br>
-		  <label>
-		    <input type="radio" name="option_2">option_2
-		  </label><br>
-		  <label>
-		    <input type="radio" name="option_3">option_3
-		  </label><br>
-		  <label>
-		    <input type="radio" name="option_4">option_4
-		  </label><br>
-		  <label>
-		    <input type="radio" name="option_5">option_5
-		  </label><br>
-		</fieldset>
-	  <h3> <font color="orange"> textarea </font> </h3>
-		<textarea name="textarea" rows="5" cols="20">enter text</textarea>
-	  <h3> <font color="orange"> type:submit </font> </h3>
-		<input type="submit" value="sent">
-    </form>
-
+	  <tr>
+	    <td class="planet" align="center" valign="center"> Jupiter </td>
+		<td class="AU" align="center" valign="center"> 5.2 </td>
+		<td class="elrs" align="center" valign="center"> 71492 </td>
+		<td class="volume" align="center" valign="center"> 1316 </td>
+		<td class="mass" align="center" valign="center"> 317.82 </td>
+		<td class="density" align="center" valign="center"> 1.33 </td>
+		<td class="rnpd" align="center" valign="center"> 11.86 </td>
+		<td class="moon" align="center" valign="center"> 79 </td>
+	  <tr>
+	  <tr>
+	    <td class="planet" align="center" valign="center"> Saturn </td>
+		<td class="AU" align="center" valign="center"> 9.5 </td>
+		<td class="elrs" align="center" valign="center"> 60268 </td>
+		<td class="volume" align="center" valign="center"> 763.6 </td>
+		<td class="mass" align="center" valign="center"> 95.16 </td>
+		<td class="density" align="center" valign="center"> 0.70 </td>
+		<td class="rnpd" align="center" valign="center"> 29.49 </td>
+		<td class="moon" align="center" valign="center"> 82 </td>
+	  <tr>
+	  <tr>
+	    <td class="planet" align="center" valign="center"> Uranus </td>
+		<td class="AU" align="center" valign="center"> 19.2 </td>
+		<td class="elrs" align="center" valign="center"> 25559 </td>
+		<td class="volume" align="center" valign="center"> 63.1 </td>
+		<td class="mass" align="center" valign="center"> 14.37 </td>
+		<td class="density" align="center" valign="center"> 1.30 </td>
+		<td class="rnpd" align="center" valign="center"> 84.02 </td>
+		<td class="moon" align="center" valign="center"> 27 </td>
+	  <tr>
+	  <tr>
+	    <td class="planet" align="center" valign="center"> Neptune </td>
+		<td class="AU" align="center" valign="center"> 30.1 </td>
+		<td class="elrs" align="center" valign="center"> 24764 </td>
+		<td class="volume" align="center" valign="center"> 57.7 </td>
+		<td class="mass" align="center" valign="center"> 17.15 </td>
+		<td class="density" align="center" valign="center"> 1.76 </td>
+		<td class="rnpd" align="center" valign="center"> 164.79 </td>
+		<td class="moon" align="center" valign="center"> 14 </td>
+	  <tr>
+    </table>
+	</div>
+	<br>
+	<div class="gif">
+	  <img width="1000" height="576" src="https://pic4.zhimg.com/v2-e7d9a89bc7dc6ffcaa998d178c9294af_b.gif">
+	</div>
+<style>
+  .table_{
+    color:white;
+	font-family:Comic Sans MS, Comic Sans, cursive;
+	display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  .gif{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+</style>
 </body>
 </html>
